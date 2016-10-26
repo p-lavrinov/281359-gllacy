@@ -13,26 +13,47 @@
         <nav class="navigation">
           <ul>
             <li><a href="#">Каталог</a>
-                <ul class="subnavigation"
-                  <li><a href="#"><b>Новинки</b></a></li>
+                <ul class="subnavigation">
+                  <li><a href="#">Новинки</a></li>
                   <li><a href="#">Сливочное</a></li>
                   <li><a href="#">Щербеты</a></li>
                   <li><a href="#">Фруктовый лёд</a></li>
                   <li><a href="#">Мелорин</a></li>
                 </ul>
             </li>
-            <li><a href="#">Доставка и оплата</a>
-            </li>
-            <li>
-              <a href="#">О компании</a>
-            </li>
-         </nav>
-         <div class="user-block"
-<!--поиск,вход,корзина -->
-           <a class="login" href="#">Вход </a>
-         </div>
-<!-- слайдер (не знаю как его прописать) -->
-<!-- кнопка на слайдере (не знаю как ее прописать) -->
+            <li><a href="#">Доставка и оплата</a></li>
+            <li><a href="#">О компании</a></li>
+        </nav>
+            <p>С 10 до 20 ежедневно</p>
+            <p>8 812 450 25 25</p>
+        <div class="user-block">
+        <!--Поиск -->
+          <form class ="search" action='https://glacce.ru' method="post"
+             <input type="search" placeholder="Что ищем?">
+             <button class="btn" type="submit">
+        <!-- не понимаю как прицепить иконку на кнопку -->
+          </form>
+         <!--Регистрация -->
+          <form action="https://glacce.ru" method="post">
+            <label for="login-field">Электронная почта</label>
+            <input type="text" name="login" id="login-field">
+            <label for="password-field">Пароль</label>
+            <input type="text" name="password" id="password-field">
+            <a href="#">Забыли пароль?</a>
+            <a href="#">Новая регистрация</a>
+            <button class="btn" type="submit">Войти</button>
+         <!-- не понимаю как прицепить иконку на кнопку -->
+          </form>
+         <!--Корзина -->
+            <a class="btn" href="х">Пусто</a>
+         <!-- не понимаю как прицепить иконку на кнопку -->
+        </div>
+         <!-- слайдер -->
+         <div class="slider">
+        </div>
+         <!-- кнопка на слайдере -->
+         <a class="btn" href="х">Давайте оба</a>
+
 
        <section class="adv"
         <div class="malina"
@@ -135,28 +156,28 @@
         <a class="button" href="#">Форма обратной связи</a>
          </body>
         </section>
-        <footer>
-          <footer class="footer">
+<!-- до сюда -->
+         <footer class="footer">
             <div class="container">
-              <div class="footer-social">
-                   <a class="social-btn social-btn-vk" href="#">Твиттер</a>
-                   <a class="social-btn social-btn-fb" href="#">Инстаграм</a>
-                   <a class="social-btn social-btn-inst" href="#">Фэйсбук</a>
+              <section class="footer-social">
+                   <a class="social-btn social-btn-tw" href="#">Твиттер</a>
+                   <a class="social-btn social-btn-inst" href="#">Инстаграм</a>
+                   <a class="social-btn social-btn-fc" href="#">Фэйсбук</a>
                    <a class="social-btn social-btn-vk" href="#">Вконтакте</a>
-             </div>
-             <div class="footer-about">
+             </section>
+             <section class="footer-about">
                 <ul>
                   <li><a href="#">Для поставщиков</a></li>
                   <li><a href="#">О производстве</a></li>
                   <li><a href="#">Наши документы</a><li>
                   <li><a href="#">Экологические стандарты</a></li>
                 </ul>
-             </div>
-              <div class="footer-academy">
+             </section>
+              <section class="footer-academy">
                 <p> Сделано в <a href="#">HTML Academy</a></p>
                 <img src="academy-logo.png" width="135" height="50">
-              </div>
+              </section>
             </div>
-        </footer>
-      </body>
+          </footer>
+       </body>
   </html>
